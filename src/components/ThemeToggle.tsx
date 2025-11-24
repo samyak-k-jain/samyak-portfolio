@@ -1,0 +1,45 @@
+import { Moon, Sun } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { useEffect, useState } from "react";
+
+/**
+ * ThemeToggle Component
+ * Provides a button to switch between light and dark themes
+ * Persists theme preference in localStorage
+ */
+export const ThemeToggle = () => {
+  const [theme, setTheme] = useState<"light" | "dark">("light");
+
+  useEffect(() => {
+    // Check for saved theme preference or default to light
+    const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const initialTheme = savedTheme || (prefersDark ? "dark" : "light");
+    
+    setTheme(initialTheme);
+    document.documentElement.classList.toggle("dark", initialTheme === "dark");
+  }, []);
+
+  const toggleTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
+    document.documentElement.classList.toggle("dark", newTheme === "dark");
+  };
+
+  return (
+    <Button
+      variant="ghost"
+      size="icon"
+      onClick={toggleTheme}
+      aria-label={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
+      className="hover:bg-muted transition-colors"
+    >
+      {theme === "light" ? (
+        <Moon className="h-5 w-5" />
+      ) : (
+        <Sun className="h-5 w-5" />
+      )}
+    </Button>
+  );
+};
