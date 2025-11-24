@@ -50,7 +50,7 @@ export const Contact = () => {
     const body = encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     );
-    window.location.href = `mailto:your-email@example.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:samyakjain7860@gmail.com?subject=${subject}&body=${body}`;
 
     toast({
       title: "Opening Email Client",
@@ -87,7 +87,7 @@ export const Contact = () => {
                 <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
                 <div className="space-y-4">
                   <a
-                    href="mailto:your-email@example.com"
+                    href="mailto:samyakjain7860@gmail.com"
                     className="flex items-center gap-3 text-foreground/80 hover:text-accent transition-colors group"
                   >
                     <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
@@ -95,12 +95,12 @@ export const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium">Email</p>
-                      <p className="text-sm">your-email@example.com</p>
+                      <p className="text-sm">samyakjain7860@gmail.com</p>
                     </div>
                   </a>
 
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+917340411075"
                     className="flex items-center gap-3 text-foreground/80 hover:text-accent transition-colors group"
                   >
                     <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
@@ -108,7 +108,7 @@ export const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium">Phone</p>
-                      <p className="text-sm">+1 (234) 567-890</p>
+                      <p className="text-sm">+91-7340411075</p>
                     </div>
                   </a>
 

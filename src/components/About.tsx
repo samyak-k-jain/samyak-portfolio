@@ -8,11 +8,12 @@ import { Card } from "@/components/ui/card";
 export const About = () => {
   const highlights = [
     "3+ years of full-stack development experience",
-    "Expertise in Java, Spring Boot, and React ecosystem",
-    "Strong background in microservices architecture",
-    "Experience with cloud platforms (AWS, Azure, GCP)",
-    "Proficient in building scalable distributed systems",
-    "Passionate about clean code and best practices",
+    "Expertise in Java, Spring Boot, React (TypeScript), and Microservices",
+    "Experience with Kafka, Redis, AWS, Docker, and Jenkins",
+    "Improved Zuora microservices response time from 2s to 11ms (880% speedup)",
+    "Enhanced frontend performance by 40-55% through optimization techniques",
+    "Built secure MFA solutions with Google Authenticator & Okta Verify",
+    "Strong background in debugging, performance optimization, and system design",
   ];
 
   return (
@@ -28,18 +29,20 @@ export const About = () => {
           <Card className="p-8 shadow-lg animate-slide-up">
             {/* Professional Summary */}
             <p className="text-lg text-foreground/80 leading-relaxed mb-8">
-              I'm a passionate Full Stack Developer with 3 years of experience building 
-              scalable web applications. I specialize in creating robust backend systems 
-              using Java and Spring Boot, coupled with modern frontend technologies like 
-              React. My expertise spans microservices architecture, distributed systems, 
-              and cloud-native development.
+              I'm a passionate Full Stack Developer with 3 years of experience specializing in 
+              building high-performance backend systems and intuitive frontend experiences. 
+              I excel at creating scalable microservices using Java and Spring Boot, implementing 
+              efficient caching strategies with Redis and Kafka, and developing responsive UIs with 
+              React and TypeScript. My work has delivered measurable results, including an 880% 
+              improvement in API response times and 40-55% enhancement in frontend performance.
             </p>
 
             <p className="text-lg text-foreground/80 leading-relaxed mb-8">
-              I thrive on solving complex technical challenges and delivering high-quality 
-              solutions that drive business value. Whether it's designing efficient APIs, 
-              optimizing system performance, or crafting intuitive user interfaces, I'm 
-              committed to excellence in every aspect of software development.
+              I thrive on solving complex technical challenges through performance optimization, 
+              system design, and meticulous debugging. Whether it's refactoring critical microservices, 
+              integrating secure authentication mechanisms, or optimizing database queries to reduce 
+              load by 70%, I'm committed to delivering solutions that drive tangible business value 
+              and exceptional user experiences.
             </p>
 
             {/* Key Highlights */}

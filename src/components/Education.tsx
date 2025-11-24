@@ -8,27 +8,27 @@ import { GraduationCap, Award } from "lucide-react";
 export const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "ABC University",
-      period: "2017 - 2021",
-      description: "Graduated with First Class Honors. Specialized in Software Engineering and Database Systems.",
+      degree: "Bachelor of Technology in Electrical Engineering",
+      institution: "National Institute of Technology Silchar",
+      period: "2019 - 2023",
+      description: "CGPA: 8.47/10. Strong foundation in problem-solving, algorithms, and system design.",
     },
   ];
 
   const certifications = [
     {
-      title: "AWS Certified Solutions Architect - Associate",
-      issuer: "Amazon Web Services",
+      title: "Competitive Programming Peak Rating: 1632",
+      issuer: "LeetCode & GeeksforGeeks",
       year: "2023",
     },
     {
-      title: "Oracle Certified Professional: Java SE 11 Developer",
-      issuer: "Oracle",
-      year: "2022",
+      title: "700+ Problems Solved",
+      issuer: "LeetCode & GeeksforGeeks",
+      year: "2023",
     },
     {
-      title: "Spring Professional Certification",
-      issuer: "VMware",
+      title: "2nd Place - Robotics Competition",
+      issuer: "NIT Silchar TechFest",
       year: "2022",
     },
   ];
@@ -39,7 +39,7 @@ export const Education = () => {
         <div className="max-w-4xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Education & Certifications</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Education & Achievements</h2>
             <div className="w-20 h-1 bg-accent mx-auto"></div>
           </div>
 
@@ -66,7 +66,7 @@ export const Education = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-4 flex items-center gap-2">
                 <Award className="h-6 w-6 text-accent" />
-                Certifications
+                Achievements
               </h3>
               <div className="grid md:grid-cols-2 gap-4">
                 {certifications.map((cert, index) => (
