@@ -51,8 +51,7 @@ export const Hero = () => {
 
           {/* Tagline */}
           <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-            Building scalable web applications with 3 years of experience in Java, Spring Boot, 
-            React, Kafka, and cloud platforms
+            Building scalable backend systems and high-performance frontend experiences
           </p>
 
           {/* CTA Buttons */}
@@ -95,7 +94,7 @@ export const Hero = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:samyakjain7860@gmail.com"
               aria-label="Email"
               className="text-white/80 hover:text-accent transition-colors"
             >
