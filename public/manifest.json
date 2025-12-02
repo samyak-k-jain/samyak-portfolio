@@ -1,0 +1,17 @@
+{
+  "name": "Samyak Jain - Portfolio",
+  "short_name": "SJ Portfolio",
+  "description": "Personal portfolio website of Samyak Jain, Software Engineer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#06b6d4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
