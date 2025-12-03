@@ -1,6 +1,7 @@
 import { Download, Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { contactInfo } from "@/data/resume";
+import profileImage from "@/assets/profile.jpg";
 
 export const Hero = () => {
   const scrollToProjects = () => {
@@ -24,15 +25,14 @@ export const Hero = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-5xl mx-auto text-center">
-          {/* Profile Image Placeholder */}
+          {/* Profile Image */}
           <div className="mb-8 flex justify-center fade-in-up">
             <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full bg-gradient-to-br from-primary to-accent p-1 glow">
-              <div className="w-full h-full rounded-full bg-background flex items-center justify-center text-5xl sm:text-6xl font-bold gradient-text">
-                {contactInfo.name
-                  .split(" ")
-                  .map((n) => n[0])
-                  .join("")}
-              </div>
+              <img 
+                src={profileImage} 
+                alt={contactInfo.name}
+                className="w-full h-full rounded-full object-cover"
+              />
             </div>
           </div>
 
