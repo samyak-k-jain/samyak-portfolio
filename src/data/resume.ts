@@ -40,7 +40,7 @@ export const contactInfo: ContactInfo = {
   email: "samyakjain7860@gmail.com",
   linkedin: "https://www.linkedin.com/in/samyak-jain-2550831a8/",
   github: "https://github.com/samyak-k-jain",
-  location: "India",
+  location: "Bangalore, India",
 };
 
 export const about = {

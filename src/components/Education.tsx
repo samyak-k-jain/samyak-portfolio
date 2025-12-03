@@ -1,6 +1,5 @@
 import { GraduationCap, Trophy, Code, Award } from "lucide-react";
 import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { education, achievements } from "@/data/resume";
 
 const iconMap = {

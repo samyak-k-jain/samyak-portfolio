@@ -106,7 +106,7 @@ export const Hero = () => {
               asChild
             >
               <a 
-                href="https://drive.google.com/drive/folders/1fGVaZw7A8wuefzh8rs5AbGTHhlCA2Zt3" 
+                href="https://drive.google.com/file/d/1JDXvrkAfABItyRVwAzMSr5DxASa__p_b/view?usp=sharing"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
