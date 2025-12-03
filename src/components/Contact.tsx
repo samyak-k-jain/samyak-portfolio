@@ -16,19 +16,42 @@ export const Contact = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission (replace with actual form handling)
-    setTimeout(() => {
+    try {
+      // Google Form action URL
+      const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLScwVKowYXHwW0pdBXYcwd7tDctl8sZML2lIgqQUid4cacNo_g/formResponse";
+
+      // Create form data with Google Form field IDs from your form
+      const googleFormData = new FormData();
+      googleFormData.append("entry.97551280", formData.name); // Name field
+      googleFormData.append("entry.1606263315", formData.email); // Email field
+      googleFormData.append("entry.1409469027", formData.message); // Message field
+
+      // Submit to Google Form
+      await fetch(formUrl, {
+        method: "POST",
+        body: googleFormData,
+        mode: "no-cors", // Required for Google Forms
+      });
+
       toast({
         title: "Message sent!",
         description: "Thank you for reaching out. I'll get back to you soon.",
       });
       setFormData({ name: "", email: "", message: "" });
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   const contactMethods = [
