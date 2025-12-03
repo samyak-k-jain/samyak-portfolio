@@ -101,8 +101,10 @@ export const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/resume.pdf"
-                    download
+                      href="https://drive.google.com/file/d/1JDXvrkAfABItyRVwAzMSr5DxASa__p_b/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      download
                     className="inline-flex items-center hover:text-primary transition-colors"
                   >
                     Download Resume

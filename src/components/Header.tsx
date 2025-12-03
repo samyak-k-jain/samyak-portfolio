@@ -164,7 +164,12 @@ export const Header = () => {
                   className="w-full justify-start"
                   asChild
                 >
-                  <a href="/resume.pdf" download>
+                  <a
+                      href="https://drive.google.com/file/d/1JDXvrkAfABItyRVwAzMSr5DxASa__p_b/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      download
+                  >
                     <Download className="h-4 w-4 mr-2" />
                     Download Resume
                   </a>
