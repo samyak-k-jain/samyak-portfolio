@@ -8,12 +8,18 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
+// Set basename for GitHub Pages deployment
+const basename = import.meta.env.PROD ? '/samyak-portfolio' : '/';
+
+console.log('[App] Environment:', import.meta.env.MODE);
+console.log('[App] Base path:', basename);
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename={basename}>
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
