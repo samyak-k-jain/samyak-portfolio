@@ -98,8 +98,8 @@ export const Experience = () => {
           {/* Call to Action */}
           <div className="mt-16 text-center">
             <a
-              href="/resume.pdf"
-              download
+              href="https://drive.google.com/file/d/1JDXvrkAfABItyRVwAzMSr5DxASa__p_b/view?usp=sharing"
+              target="_blank"
               className="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors group"
             >
               <span className="animated-underline">
