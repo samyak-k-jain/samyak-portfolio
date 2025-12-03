@@ -105,9 +105,13 @@ export const Hero = () => {
               className="border-2 text-base"
               asChild
             >
-              <a href="/resume.pdf" download>
+              <a 
+                href="https://drive.google.com/drive/folders/1fGVaZw7A8wuefzh8rs5AbGTHhlCA2Zt3" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <Download className="mr-2 h-5 w-5" />
-                Download Resume
+                View Resume
               </a>
             </Button>
           </div>
