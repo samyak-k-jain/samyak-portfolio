@@ -16,7 +16,5 @@ export default defineConfig(({ mode }) => ({
     },
   },
   // Set base path for GitHub Pages deployment
-  // For user pages (username.github.io), use '/'
-  // For project pages (username.github.io/repo-name), use '/repo-name/'
-  base: process.env.NODE_ENV === 'production' ? '/samyak-portfolio/' : '/',
+  base: mode === 'production' ? '/samyak-portfolio/' : '/',
 }));
