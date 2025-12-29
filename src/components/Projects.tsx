@@ -31,12 +31,13 @@ export const Projects = () => {
                 className="group overflow-hidden card-hover border-border bg-card cursor-pointer"
                 onClick={() => setSelectedProject(project)}
               >
-                {/* Project Image Placeholder */}
-                <div className="h-48 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center relative overflow-hidden">
-                  <div className="absolute inset-0 pattern-bg opacity-30"></div>
-                  <div className="text-5xl font-bold text-primary/40 z-10">
-                    {index + 1}
-                  </div>
+                {/* Project Image */}
+                <div className="h-48 relative overflow-hidden">
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </div>
 

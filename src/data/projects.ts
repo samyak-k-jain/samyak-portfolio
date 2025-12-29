@@ -1,3 +1,10 @@
+import passwordPolicyImg from "@/assets/projects/password-policy.png";
+import mfaTotpImg from "@/assets/projects/mfa-totp.png";
+import apiPerformanceImg from "@/assets/projects/api-performance.png";
+import kafkaExportImg from "@/assets/projects/kafka-export.png";
+import reactPerformanceImg from "@/assets/projects/react-performance.png";
+import sumoRobotImg from "@/assets/projects/sumo-robot.png";
+
 export interface Project {
   id: string;
   title: string;
@@ -7,7 +14,7 @@ export interface Project {
   highlights: string[];
   github?: string;
   demo?: string;
-  image?: string;
+  image: string;
   category: "professional" | "personal" | "academic";
 }
 
@@ -33,6 +40,7 @@ export const projects: Project[] = [
       "Created RESTful APIs with Swagger documentation",
       "Achieved 90% test coverage with JUnit and Mockito",
     ],
+    image: passwordPolicyImg,
     category: "professional",
   },
   {
@@ -56,6 +64,7 @@ export const projects: Project[] = [
       "Created audit trail for all MFA events",
       "Integrated with existing authentication flow seamlessly",
     ],
+    image: mfaTotpImg,
     category: "professional",
   },
   {
@@ -78,6 +87,7 @@ export const projects: Project[] = [
       "Set up monitoring and alerting with CloudWatch",
       "Documented optimization techniques for team reference",
     ],
+    image: apiPerformanceImg,
     category: "professional",
   },
   {
@@ -100,6 +110,7 @@ export const projects: Project[] = [
       "Added retry mechanism for failed processing",
       "Achieved 100% data accuracy in exports",
     ],
+    image: kafkaExportImg,
     category: "professional",
   },
   {
@@ -122,6 +133,7 @@ export const projects: Project[] = [
       "Optimized Redux selectors with Reselect",
       "Improved Lighthouse performance score from 65 to 92",
     ],
+    image: reactPerformanceImg,
     category: "professional",
   },
   {
@@ -143,6 +155,7 @@ export const projects: Project[] = [
       "Optimized attack and defense strategies",
       "Built robust mechanical chassis with 3D-printed parts",
     ],
+    image: sumoRobotImg,
     category: "academic",
   },
 ];
