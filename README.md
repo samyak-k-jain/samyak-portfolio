@@ -246,36 +246,6 @@ npm install --save-dev vitest @testing-library/react @testing-library/jest-dom j
 npm test
 ```
 
-## 🔧 Troubleshooting
-
-### Build Issues
-
-```bash
-# Clear cache and reinstall
-rm -rf node_modules package-lock.json
-npm install
-npm run build
-```
-
-### GitHub Pages Not Updating
-
-1. Check Actions tab for workflow status
-2. Ensure Pages is enabled in repository settings
-3. Clear browser cache (Ctrl+Shift+R)
-4. Wait 2-3 minutes for CDN propagation
-
-### 404 on Page Refresh
-
-This is normal for client-side routing on GitHub Pages. The app uses hash-based routing which works correctly.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/samyak-k-jain/portfolio/issues).
-
 ## 📧 Contact
 
 **Samyak Jain**
