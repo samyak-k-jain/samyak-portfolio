@@ -131,6 +131,23 @@
     @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
   }
 
+  /* Interactive card with tilt effect */
+  .card-interactive {
+    @apply transition-all duration-500 ease-out;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+
+  .card-interactive:hover {
+    @apply shadow-2xl;
+    box-shadow: 0 25px 50px -12px hsl(var(--primary) / 0.25);
+  }
+
+  /* Scale hover utility */
+  .hover\:scale-102:hover {
+    transform: scale(1.02);
+  }
+
   /* Glow effect */
   .glow {
     box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
