@@ -27,7 +27,7 @@ export const Hero = () => {
         <div className="max-w-5xl mx-auto text-center">
           {/* Profile Image */}
           <div className="mb-8 flex justify-center fade-in-up">
-            <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full bg-gradient-to-br from-primary to-accent p-1 glow">
+            <div className="w-40 h-40 sm:w-52 sm:h-52 md:w-60 md:h-60 rounded-full bg-gradient-to-br from-primary to-accent p-1.5 glow">
               <img 
                 src={profileImage} 
                 alt={contactInfo.name}
