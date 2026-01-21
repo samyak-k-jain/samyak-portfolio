@@ -109,7 +109,7 @@ export const Header = () => {
               asChild
             >
               <a
-                 href="https://drive.google.com/file/d/1b189KqwOX9zSEwjsTs4B2cim4lk_bPbN/view?usp=sharing"
+                 href="https://drive.google.com/file/d/10cDSt_yxjlGzUhKtniS_7QuT7viyBx-B/view"
                  target="_blank"
                  rel="noopener noreferrer"
                  download
@@ -165,7 +165,7 @@ export const Header = () => {
                   asChild
                 >
                   <a
-                      href="https://drive.google.com/file/d/1b189KqwOX9zSEwjsTs4B2cim4lk_bPbN/view?usp=sharing"
+                      href="https://drive.google.com/file/d/10cDSt_yxjlGzUhKtniS_7QuT7viyBx-B/view"
                       target="_blank"
                       rel="noopener noreferrer"
                       download

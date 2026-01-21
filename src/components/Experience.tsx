@@ -98,7 +98,7 @@ export const Experience = () => {
           {/* Call to Action */}
           <div className="mt-16 text-center">
             <a
-              href="https://drive.google.com/file/d/1b189KqwOX9zSEwjsTs4B2cim4lk_bPbN/view?usp=sharing"
+              href="https://drive.google.com/file/d/10cDSt_yxjlGzUhKtniS_7QuT7viyBx-B/view"
               target="_blank"
               className="inline-flex items-center text-primary hover:text-primary/80 font-medium transition-colors group"
             >
