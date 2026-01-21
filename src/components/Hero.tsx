@@ -51,7 +51,7 @@ export const Hero = () => {
 
           {/* Tagline */}
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed fade-in-up stagger-3">
-            2.5+ years at Zuora. Java, Spring Boot, Microservices, React (TS),
+            3+ years at Zuora. Java, Spring Boot, Microservices, React (TS),
             SQL, performance optimization.
           </p>
 
@@ -59,7 +59,7 @@ export const Hero = () => {
           <div className="flex flex-wrap justify-center gap-6 sm:gap-8 mb-10 fade-in-up stagger-4">
             <div className="text-center">
               <div className="text-2xl sm:text-3xl font-bold gradient-text">
-                2.5+
+                3+
               </div>
               <div className="text-sm text-muted-foreground">Years Exp</div>
             </div>

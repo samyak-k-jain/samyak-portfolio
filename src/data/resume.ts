@@ -44,14 +44,14 @@ export const contactInfo: ContactInfo = {
 };
 
 export const about = {
-  intro: "I'm Samyak Jain — Software Engineer with 2.5+ years of experience at Zuora, specializing in building scalable microservices and high-performance web applications.",
+  intro: "I'm Samyak Jain — Software Engineer with 3+ years of experience at Zuora, specializing in building scalable microservices and high-performance web applications.",
   description: [
     "As a Software Engineer at Zuora, I've architected and delivered critical features that serve millions of users. My work spans the full stack, from optimizing backend microservices with Java and Spring Boot to crafting responsive React frontends with TypeScript.",
     "I'm passionate about performance optimization, having reduced API latency from 2 seconds to 11ms and implemented Redis caching strategies that dramatically improved system responsiveness. My experience includes designing secure authentication systems, building event-driven architectures with Kafka, and implementing comprehensive monitoring solutions.",
     "Beyond coding, I'm an active problem solver with 700+ solved problems on competitive programming platforms and a proven track record of delivering impactful projects in fast-paced environments.",
   ],
   highlights: [
-    "2.5+ years at Zuora",
+    "3+ years at Zuora",
     "Java & Spring Boot Expert",
     "Microservices Architecture",
     "React & TypeScript",
