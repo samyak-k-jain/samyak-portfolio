@@ -65,7 +65,7 @@ export const Hero = () => {
             </div>
             <div className="text-center">
               <div className="text-2xl sm:text-3xl font-bold gradient-text">
-                200+
+                350+
               </div>
               <div className="text-sm text-muted-foreground">
                 Queries Optimized
